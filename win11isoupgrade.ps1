@@ -51,8 +51,8 @@ $DaysToAllowRollback = '7' # Min 2, Max 60, Windows default is 10. If devices ar
 
 # Fido is used to retrieve Microsoft's ISO file URL https://github.com/pbatard/Fido/tree/master
 # These settings don't matter if you're providing your own ISO URL
-$FidoURL = "https://raw.githubusercontent.com/pbatard/Fido/master/Fido.ps1"
-$TargetVersion = 'Latest' # Example: '22H2' or 'Latest'
+$FidoURL = "https://raw.githubusercontent.com/network-mitch/win11-upgrades/refs/heads/main/Fido.ps1"
+$TargetVersion = '24H2' # Example: '22H2' or 'Latest'
 $Language = 'English'
 
 # Provide your own ISO download URL
